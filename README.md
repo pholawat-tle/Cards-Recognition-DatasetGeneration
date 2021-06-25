@@ -39,7 +39,7 @@
 
 ## About This Project
 
-This project is based on this [Repository](https://github.com/geaxgx/playing-card-detection). In additional to the original Jupyter Notebook, this project can be run on Google Colab and retrieve files from and save files to a mounted Google Drive.
+This is a Google Colab version of [repository](https://github.com/geaxgx/playing-card-detection). In additional to the original notebook, this notebook can interact with files from Google Drive.
 
 ## Getting Started
 
@@ -58,6 +58,8 @@ To get a copy up and running follow these simple steps.
    git clone https://github.com/pholawat-tle/Cards-Recognition-DatasetGeneration
    ```
 2. Upload the .ipynb file to Google Colab
+3. Upload the videos of all 52 cards to the Colab VM or your Google Drive
+4. In case the videos are on Google Drive, mount Google Drive to your VM
 
 _For the script to run properly, some variables that ends with `_dir` need may need to be changed to fit your environment_
 
@@ -65,7 +67,6 @@ _For the script to run properly, some variables that ends with `_dir` need may n
 
 ## Usage
 
-By running the code in the notebook, you should get weights file name `best.pt` and `last.pt`. To use these weights in your application, refer to [this guide](https://github.com/ultralytics/yolov5/issues/36)
+By running the code in the notebook, you should get weights file name `best.pt` and `last.pt`. To use these weights in your application, refer to [this guide](https://github.com/ultralytics/yolov5/issues/36).
 
-Below is the screenshot of the trained model in action
 <img src='./img/example.png'/>
