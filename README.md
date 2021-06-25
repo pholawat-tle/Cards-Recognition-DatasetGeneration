@@ -69,4 +69,4 @@ _For the script to run properly, some variables that ends with `_dir` need may n
 
 By running the code in the notebook, you should get weights file name `best.pt` and `last.pt`. To use these weights in your application, refer to [this guide](https://github.com/ultralytics/yolov5/issues/36).
 
-<img src='./img/example.png'/>
+<img src='./img/IMG_1546.JPG'/>
